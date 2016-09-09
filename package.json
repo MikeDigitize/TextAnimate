@@ -1,0 +1,41 @@
+{
+  "name": "textanimate",
+  "version": "1.0.0",
+  "description": "A starter template for a text animation tool",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeDigitize/TextAnimate.git"
+  },
+  "author": "Mike Chadwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeDigitize/TextAnimate/issues"
+  },
+  "homepage": "https://github.com/MikeDigitize/TextAnimate#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "es6-promise": "^3.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
